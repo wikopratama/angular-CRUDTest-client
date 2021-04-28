@@ -42,6 +42,6 @@ export class UpdatePatientComponent implements OnInit {
   }
 
   gotoList() {
-    this.router.navigate(['/employees']);
+    this.router.navigate(['/patients']);
   }
 }
